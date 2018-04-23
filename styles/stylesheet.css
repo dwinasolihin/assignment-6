@@ -1,0 +1,154 @@
+/*stylesheet.css*/
+
+/*Lets all pages have the same background and font*/
+* {
+  background-color: #FFE9CD;
+  font-family: 'Lato', sans-serif;
+}
+
+/* top navigation bar-------------------------------*/
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFE9CD;
+  
+}
+
+.top-nav li {
+  float: right;
+  background-color: #FFE9CD;
+}
+
+
+.top-nav li a {
+  display: block;
+  color: #F19CA2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #F8D7D0;
+}
+/*----------------------------------------------*/
+
+/*Header position in index.html-----------------*/
+header {
+  position: absolute;
+  height: 1rem;
+  width: 25rem;
+  bottom: 60%;
+  right: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Image position in index.html------------------*/
+.home-center{
+  height: 300px;
+  width: 550px;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  opacity: 10%;
+}
+
+/*Centers title in about-me.html----------------*/
+.ab-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Image position in about-me.html----------------*/
+.ab-photo {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 28%;
+  right: 55%;
+}
+
+/*Sets about me paragraphs to middle in about-me.html----*/
+.about-me {
+  position: absolute;
+  height: 1rem;
+  width: 25rem;
+  left: 55%;
+  bottom: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Texts aligns for all pages---------------------*/
+p {
+  text-align: justify;
+}
+
+/*Sets table dimensions-------------------*/
+table {
+  width: 75rem;
+  border: 1px;
+  color: solid black;
+}
+
+/*Sets table header color, font, and border---------*/
+th {
+  font-family: 'Gaegu', cursive;
+  background-color: #F8D7D0;
+  border: 1px solid black;
+}
+
+/*Sets border to all table data boxes--------------*/
+td{
+  border: 1px solid black;
+}
+
+/*Sets table title to be centered and its font-----------*/
+.pro-center {
+  font-family: 'Gaegu', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #F19CA2;
+}
+
+/*Sets dimensions of table, center, and border------------*/
+.project-table{
+  width 100%;
+  height: 50px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Footer size and font---------------*/
+footer p {
+  font-family: 'Gaegu', cursive;
+  font-size: 10px;
+}
+
+/*Position of footer for home and about me page------------*/
+.ab-footer{
+  position: absolute;
+  right: 1%;
+  width: 11%;
+  bottom: 1%;
+}
+
+/*Position of footer for projects page------------*/
+.pro-footer{
+  background-color: #FFE9CD;
+  position: absolute;
+  right: 1%;
+  bottom: -25%;
+}
