@@ -1,0 +1,45 @@
+/*table-style.css file for the project table styling*/
+/*Sets table dimensions-------------------*/
+table {
+  width: 75rem;
+  height: 50rem;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Sets table header color, font, and border---------*/
+th {
+  font-family: 'Tajawal', cursive;
+  background-color: #F8D7D0;
+  border: 1px solid black;
+}
+
+/*Sets border to all table data boxes--------------*/
+td {
+  border: 1px solid black;
+}
+
+/*Sets every other row to have background color of #F8D7D0 */
+tr :nth-child(2n+1){
+  background-color:#F8D7D0;
+}
+
+/*Sets table title to be centered and its font-----------*/
+.pro-center {
+  font-family: 'Tajawal', cursive;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #F19CA2;
+}
+
+/*Position of footer for projects page------------*/
+.pro-footer{
+  background-color: #FFE9CD;
+  position: absolute;
+  right: 1%;
+  bottom: -40%;
+}

@@ -19,6 +19,7 @@
 .top-nav li {
   float: right;
   background-color: #FFE9CD;
+  transition: all 1s ease-out;
 }
 
 
@@ -28,7 +29,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Gaegu', cursive;
+  font-family: 'Tajawal', cursive;
   font-size: 20px;
 }
 
@@ -88,52 +89,9 @@ header {
   font-family: 'Lato', sans-serif;
 }
 
-/*Texts aligns for all pages---------------------*/
-p {
-  text-align: justify;
-}
-
-/*Sets table dimensions-------------------*/
-table {
-  width: 75rem;
-  border: 1px;
-  color: solid black;
-}
-
-/*Sets table header color, font, and border---------*/
-th {
-  font-family: 'Gaegu', cursive;
-  background-color: #F8D7D0;
-  border: 1px solid black;
-}
-
-/*Sets border to all table data boxes--------------*/
-td{
-  border: 1px solid black;
-}
-
-/*Sets table title to be centered and its font-----------*/
-.pro-center {
-  font-family: 'Gaegu', cursive;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  color: #F19CA2;
-}
-
-/*Sets dimensions of table, center, and border------------*/
-.project-table{
-  width 100%;
-  height: 50px;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /*Footer size and font---------------*/
 footer p {
-  font-family: 'Gaegu', cursive;
+  font-family: 'Tajawal', cursive;
   font-size: 10px;
 }
 
@@ -143,12 +101,4 @@ footer p {
   right: 1%;
   width: 11%;
   bottom: 1%;
-}
-
-/*Position of footer for projects page------------*/
-.pro-footer{
-  background-color: #FFE9CD;
-  position: absolute;
-  right: 1%;
-  bottom: -25%;
 }
