@@ -21,6 +21,7 @@
 }
 
 .linkedin-link {
+  display: block;
   height: 10rem;
   width: 10rem;
   border: 1px solid black;
@@ -30,6 +31,7 @@
 }
 
 .email-link {
+  display: block;
   height: 10rem;
   width: 10rem;
   border: 1px solid black;
@@ -39,6 +41,7 @@
 }
 
 .github-link {
+  display: block;
   height: 10rem;
   width: 10rem;
   border: 1px solid black;
