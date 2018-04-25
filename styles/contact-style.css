@@ -19,3 +19,30 @@
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
+
+.linkedin-link {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.email-link {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.github-link {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
