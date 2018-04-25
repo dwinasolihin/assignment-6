@@ -1,0 +1,21 @@
+/*Stylesheet for contact.css*/
+
+/*Sets header for contact.html to center*/
+.contact-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Gaegu', sans-serif;
+  font-size: 40px;
+  color: #F19CA2;
+}
+
+/*Sets contact links for contact.html to center*/
+.contact-links {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
