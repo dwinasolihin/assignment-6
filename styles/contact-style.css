@@ -52,13 +52,17 @@
   text-align: center;
   padding: 15px 0;
   margin: auto;
-  transition: all 1s ease-out;
+  transition: width 2s, height 2s, background-color 2s, transform 2s; /*playing around with transforms*/
   color: #F19CA2;
   font-family: 'Tajawal', cursive;
 }
 
 /*when hovering over each icon------------------------*/
 .contact-links i:hover {
+  width: 50px;
+  height: 50px;
+  background-color: #F19CA2;
+  transform: rotate(180deg);
   color: #F8D7D0; 
 }
 /*----------------------------------------------*/
