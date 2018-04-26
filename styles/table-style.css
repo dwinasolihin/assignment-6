@@ -16,10 +16,10 @@ th {
   border: 1px solid black;
 }
 
+/*sets table column widths--------------------------*/
 .col-1{
   width: 15%;
 }
-
 .col-2{
   width: 75%
 }
@@ -31,7 +31,7 @@ th {
 td {
   border: 1px solid black;
 }
-
+ /*formats github icon in link col--------------------*/
 .link-icon {
   text-align: center;
   margin-left: auto;
@@ -40,6 +40,11 @@ td {
 
 .link-icon i {
   color: #F19CA2;
+  transition: all 2s ease-out;
+}
+
+.link-icon i:hover {
+  color: #F8D7D0;
 }
 /*
 TO DO: Debug tr nth-child issues 
