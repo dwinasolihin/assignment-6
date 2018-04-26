@@ -16,11 +16,31 @@ th {
   border: 1px solid black;
 }
 
+.col-1{
+  width: 15%;
+}
+
+.col-2{
+  width: 75%
+}
+.col-3 {
+  width: 10%;
+}
+
 /*Sets border to all table data boxes--------------*/
 td {
   border: 1px solid black;
 }
 
+.link-icon {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-icon i {
+  color: #F19CA2;
+}
 /*
 TO DO: Debug tr nth-child issues 
 Sets every other row to have background color of #F8D7D0 

@@ -53,12 +53,12 @@
   padding: 15px 0;
   margin: auto;
   transition: all 1s ease-out;
-  color: #F8D7D0; 
+  color: #F19CA2;
   font-family: 'Tajawal', cursive;
 }
 
 /*when hovering over each icon------------------------*/
 .contact-links i:hover {
-  background-color: #F19CA2;
+  color: #F8D7D0; 
 }
 /*----------------------------------------------*/
