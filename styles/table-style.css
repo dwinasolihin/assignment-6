@@ -21,11 +21,14 @@ td {
   border: 1px solid black;
 }
 
-/*Sets every other row to have background color of #F8D7D0 */
-tr :nth-child(2n+2){
+/*
+TO DO: Debug tr nth-child issues 
+Sets every other row to have background color of #F8D7D0 
+tr :nth-child(2n+1){
   background-color:#F8D7D0;
   color: purple;
 }
+*/
 
 /*Sets table title to be centered and its font-----------*/
 .pro-center {

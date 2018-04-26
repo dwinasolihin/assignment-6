@@ -6,46 +6,59 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: 'Gaegu', sans-serif;
+  font-family: 'Gaegu', cursive;
   font-size: 40px;
   color: #F19CA2;
+  
+  /*sets header position to be center aligned---------------*/
+  position: absolute;
+  top: 15%;
+  left: 32rem;
 }
 
-/*Sets contact links for contact.html to center*/
-.contact-links {
+/*sets contact blurb to center aligned--------------------*/
+.contact-blurb{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-}
-
-.linkedin-link {
-  display: block;
-  height: 10rem;
-  width: 10rem;
-  border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.email-link {
-  display: block;
-  height: 10rem;
-  width: 10rem;
-  border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+/*sets p within contact blurb to be center aligned--------------*/
+.contact-blurb p {
+  font-family: 'Gaegu', cursive; /*fun font to test out*/
+  font-size: 20px;
+  position: absolute;
+  bottom: 60%;
+  right: 25rem;
 }
 
-.github-link {
-  display: block;
-  height: 10rem;
-  width: 10rem;
-  border: 1px solid black;
+/*social media icon bar-------------------------------*/
+.contact-links{
+  position: absolute;
+  bottom: 40%;
+  right: -10rem;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  background-color: #FFE9CD;
+  overflow: auto;
 }
+
+/*social media links---------------------------------*/
+.contact-links a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  padding: 15px 0;
+  margin: auto;
+  transition: all 1s ease-out;
+  color: #F8D7D0; 
+  font-family: 'Tajawal', cursive;
+}
+
+/*when hovering over each icon------------------------*/
+.contact-links i:hover {
+  background-color: #F19CA2;
+}
+/*----------------------------------------------*/

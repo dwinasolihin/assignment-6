@@ -49,6 +49,10 @@ header {
   margin-right: auto;
 }
 
+header h3{
+  color: #F19CA2;
+}
+
 /*Image position in index.html------------------*/
 .home-center{
   height: 300px;
